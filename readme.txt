@@ -18,7 +18,8 @@ This plugin will remove the stop words from the URL from a defined list you can 
 
 1. Upload `remove-stop-words` folder to the `/wp-content/plugins/` directory .
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. The predefined stop words will be removed from the URL.
+3. Add the stop words (comma separated) to the textarea in the options panel. There is a list of stop words included with this plugin.
+3. The predefined stop words will be removed from the URL slug.
 
 
 == Frequently Asked Questions ==
