@@ -30,6 +30,7 @@ function remove_stop_words_admin() {
 	<div class="wrap">
 	<?php screen_icon(); ?>
 	<h2><?php echo esc_html( get_admin_page_title() ); ?></h2>
+	<p>You can use a predefined list of stop words from <a href="http://kaneandre.ws/wp-content/uploads/stop-words.txt">here</a>.</p>
 	<form method="post" action="options.php">
         <?php settings_fields( 'remove_stop_words' ); ?>
         <table class="form-table">

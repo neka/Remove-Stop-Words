@@ -14,6 +14,8 @@ It is a common SEO technique to remove 'stop words' from the slug URL that are c
 
 This plugin will remove the stop words from the URL from a defined list you can edit in the options.
 
+A list of predefined stop words are included with the plugin and also available <a href="http://kaneandre.ws/wp-content/uploads/stop-words.txt">here</a>.
+
 == Installation ==
 
 1. Upload `remove-stop-words` folder to the `/wp-content/plugins/` directory .
