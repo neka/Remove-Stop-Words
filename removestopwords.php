@@ -12,7 +12,7 @@ License: GPL2
 add_action('admin_init', 'remove_stop_words_init' );
 add_action('admin_menu', 'register_remove_stop_words_menu_page');
 
-add_filter('post_link', 'remove_stop_words');
+add_filter('the_permalink', 'remove_stop_words');
 add_filter('wp_unique_post_slug', 'remove_stop_words');
 add_filter('sanitize_title', 'remove_stop_words');
 
